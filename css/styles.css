@@ -521,7 +521,10 @@ main {
   margin-bottom: 3rem;
 }
 
-.approach-grid {
+.approach-grid,
+.programs-grid,
+.timeline,
+.skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
@@ -532,7 +535,10 @@ main {
   text-align: left;
 }
 
-.approach-card {
+.approach-card,
+.program-card,
+.timeline-item,
+.skill-card {
   background-color: #fff;
   padding: 2.5rem;
   border-radius: 8px;
