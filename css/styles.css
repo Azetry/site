@@ -234,14 +234,14 @@ main {
 .hero {
   background-color: var(--primary-color);
   background-image: linear-gradient(
-      rgba(162, 135, 5, 0.9),
+      rgba(162, 135, 5, 0.2),
       rgba(162, 135, 5, 0.9)
     ),
     url("../img/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   color: var(--light-text);
-  padding: 6rem 0;
+  padding: 10rem 0;
   text-align: center;
 }
 
@@ -265,7 +265,7 @@ main {
 
 .section-content {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 .strategic-pillars {
@@ -396,6 +396,19 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.metric-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.metric-label {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
 .stat-label {
   font-size: 1.1rem;
   color: var(--text-color);
@@ -416,6 +429,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 3rem;
+  margin: 2em 0;
 }
 
 .pillar-card {
@@ -493,6 +507,10 @@ main {
   background-color: #fff;
 }
 
+.activities-intro {
+  margin: 1.5em 0;
+}
+
 .investment-approach {
   padding: 5rem 0;
   background-color: var(--light-gray);
@@ -507,6 +525,11 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
+  margin: 2em 0;
+}
+
+.approach-grid ul li {
+  text-align: left;
 }
 
 .approach-card {
@@ -530,10 +553,12 @@ main {
 
 .approach-card h3 {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .approach-card p {
   margin-bottom: 0;
+  text-align: left;
 }
 
 .private-office-links {
@@ -541,12 +566,23 @@ main {
   background-color: #fff;
 }
 
+.recent-activities {
+  margin: 3rem 0;
+}
+
+.impact-metrics {
+  margin: 2em;
+}
+
+.metrics-grid,
 .links-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2.5rem;
+  margin: 2em 0;
 }
 
+.metric-card,
 .link-card {
   background-color: var(--light-blue);
   padding: 2.5rem;
@@ -598,6 +634,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 3rem;
+  margin: 2em 0;
 }
 
 .contact-info {
@@ -995,6 +1032,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .metric-number,
   .stat-number {
     font-size: 2.4rem;
   }
