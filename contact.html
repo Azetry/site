@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Private Office</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .logo a {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .logo a img {
+            height: 2.5rem;
+        }
+        .logo a span {
+            font-size: 0.625rem;
+            color: #8C6D2D;
+            /* transition: 0.3s; */
+        }
+        .main-nav ul li a {
+            font-size: 0.75rem;
+            /* transition: 0.3s; */
+            white-space: nowrap;
+        }
+
+        @media screen and (min-width: 480px) {
+            .logo a span {
+                font-size: 0.75rem;
+            }
+        }
+        
+        @media screen and (min-width: 1045px) {
+            .logo a span {
+                font-size: 0.625rem;
+            }
+        }
+
+        @media screen and (min-width: 1131px) {
+            .main-nav ul li a {
+                font-size: 0.875rem;
+            }
+        }
+
+        @media screen and (min-width: 1180px) {
+            .logo a span {
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Office of His Highness Sheikh" class="logo">
+                    <span>الشيخ زايد بن منصور بن طحنون آل نهيان<br>SHEIKH ZAYED MANSOOR TAHNOON ALNEHAYAN</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-uae.html">About the UAE</a></li>
+                    <li class="dropdown">
+                        <a href="private-office.html">Private Office</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="office-activities.html">Office Activities</a></li>
+                            <li><a href="leadership-message.html">Leadership Message</a></li>
+                            <li><a href="ceo-message.html">CEO Message</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="strategic-pillars.html">Strategic Pillars</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="people-centric.html">People-Centric Investment</a></li>
+                            <li><a href="next-generation.html">Next Generation Leadership</a></li>
+                            <li><a href="cultural-diplomacy.html">Cultural Diplomacy</a></li>
+                            <li><a href="environmental-sustainability.html">Environmental Sustainability</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="international-division.html">International Division</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="implementation.html">Implementation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                    <li class="language-selector"><a href="#" id="language-toggle">العربية</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+
+        <section class="contact-intro">
+            <div class="container">
+                <div class="section-content animate-on-scroll">
+                    <p>We welcome meaningful dialogue with partners who share our commitment to excellence, innovation, and responsible leadership. Our team stands ready to engage with the highest standards of professionalism, discretion, and cultural sensitivity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid" style="display: flex; justify-content: center;">
+                    <!-- <div class="contact-info animate-on-scroll" style="background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); padding: 32px 28px 24px 28px; max-width: 480px; margin-bottom: 0;">
+                        <div style="display: flex; align-items: flex-start; gap: 18px;">
+                            <img src="img/ab-2.png" alt="UAE Emblem" style="width: 90px; height: auto; flex-shrink: 0;">
+                            <div>
+                                <div style="color: #a1864f; font-size: 1.25em; font-weight: 400; line-height: 1.2;">
+                                    His Highnes <b>Sheikh<br>Zayed Bin Mansoor Bin Tahnoon</b>
+                                </div>
+                                <div style="color: #a1864f; font-size: 1.05em; margin-top: 4px;">Principal & Visionary of Zayed Family Office</div>
+                            </div>
+                        </div>
+                        <div style="height: 18px;"></div>
+                        <div style="display: flex; align-items: center; gap: 12px; font-size: 1.08em; margin-bottom: 8px;">
+                            <i class="fas fa-envelope" style="color: #a1864f; font-size: 1.1em;"></i>
+                            <span style="font-weight: bold; color: #222;">Zayed@zayedalnehayanoffice.com</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 12px; font-size: 1.08em; margin-bottom: 8px;">
+                            <i class="fas fa-map-marker-alt" style="color: #a1864f; font-size: 1.1em;"></i>
+                            <span>Address: 7 Nakhl Binjbarha St - Al Bateen - W11 - Abu Dhabi UAE</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 12px; font-size: 1.08em; margin-bottom: 8px;">
+                            <i class="fas fa-phone-alt" style="color: #a1864f; font-size: 1.1em;"></i>
+                            <span>P.O.BOX: 11135, ABUDHABI, UNITED Arab Emirates</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 12px; font-size: 1.08em;">
+                            <i class="fas fa-phone-alt" style="color: #a1864f; font-size: 1.1em;"></i>
+                            <span>+971 02 557 4106</span>
+                        </div>
+                    </div> -->
+                    
+                    <div class="contact-form-container animate-on-scroll">
+                        <h2>Send Us a Message</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="organization">Organization</label>
+                                <input type="text" id="organization" name="organization">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="privacy-policy" required>
+                                    <span>I have read and agree to the <a href="privacy-policy.html">Privacy Policy</a> <span class="required">*</span></span>
+                                </label>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <button type="submit" class="btn disabled" disabled>Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Office Address</h4>
+                    <p>P.O. BOX:11135<br>
+                    ABUDHABI<br>
+                    United Arab Emirates</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Information</h4>
+                    <p>Phone:  (+971) 02 557 4106<br>
+                    
+                    Email: info@zayedalnehayanoffice.com</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-uae.html">About the UAE</a></li>
+                        <li><a href="private-office.html">Private Office</a></li>
+                        <li><a href="strategic-pillars.html">Strategic Pillars</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Office of His Highness Sheikh. All Rights Reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-use.html">Terms of Use</a>
+                </div>
+                <div class="language-selector-footer">
+                    <a href="#" id="footer-language-toggle">العربية</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
