@@ -116,6 +116,10 @@ a:hover {
   text-align: center;
 }
 
+.btn.strategic {
+  margin-top: 1em;
+}
+
 .btn:hover {
   background-color: var(--secondary-color);
   color: var(--light-text);
@@ -536,6 +540,7 @@ main {
 }
 
 .approach-card,
+.strategic-card,
 .program-card,
 .timeline-item,
 .skill-card {
@@ -565,6 +570,12 @@ main {
 .approach-card p {
   margin-bottom: 0;
   text-align: left;
+}
+
+.strategic-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .private-office-links {
